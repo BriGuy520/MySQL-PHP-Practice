@@ -1,0 +1,1 @@
+SELECT count(*) AS total_actors FROM actors;
