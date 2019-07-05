@@ -154,6 +154,7 @@ SELECT * FROM movies WHERE rating = 'R' OR rating='';
 -- +---------+-------------+--------------+--------+
 
 SELECT * FROM movies WHERE rating='R' OR IFNULL(rating, '') = '';
+
 -- +---------+------------------------+--------------+--------+
 -- | MovieID | title                  | release_year | rating |
 -- +---------+------------------------+--------------+--------+
